@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.button-container {
+    padding: 1rem 0;
+    display: grid;
+    margin: 2rem auto;
+    width: 90vw;
+    justify-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+	grid-gap: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.button-container button {
+    width: 8rem;
+    height: 3rem;
+}
